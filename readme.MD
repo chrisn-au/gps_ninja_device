@@ -46,7 +46,7 @@ Client secret:        ljxxxxxxxxxxxxxxxxxxx
 You will need to keep Client ID  == client_id ,  and Client Secret == client_secret
 
 
-2. Get the code from https://github.com/chrisn-au/gps_ninja 
+2. Get the code from https://github.com/chrisn-au/gps_ninja_device
 
 Install the geolib library npm install geolib A great node.js library for distances between co-ordinates(thanks manuel)
 Install the https://github.com/chrisn-au/gps_ninja into your NinjaClient/drivers directory
