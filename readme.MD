@@ -49,7 +49,7 @@ You will need to keep Client ID  == client_id ,  and Client Secret == client_sec
 2. Get the code from https://github.com/chrisn-au/gps_ninja_device
 
 Install the geolib library npm install geolib A great node.js library for distances between co-ordinates(thanks manuel)
-Install the https://github.com/chrisn-au/gps_ninja into your NinjaClient/drivers directory
+Install the https://github.com/chrisn-au/gps_ninja_device into your NinjaClient/drivers directory
 
 3. Configure and run authenticate script (found in ./lib(
 gps_ninja_authenticate.js
@@ -60,7 +60,7 @@ Read https://developers.google.com/accounts/docs/OAuth2InstalledApp for further 
 Retrieve the client_id and client_secret from the google app registration and update in the script.
 
 Run the script "node gps_ninja_authenticate.js"  and assuming the deities are shining on you you will receive the 
-refresh_token and device_id  which along with client_id and client_secret and update the gps_lights_run.js script.
+refresh_token and device_id 
 
 
 3. Configure the driver (will use Dans new mechanism one day
